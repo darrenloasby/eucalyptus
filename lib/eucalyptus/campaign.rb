@@ -5,7 +5,18 @@ module Eucalyptus
     def self.known_fields
       [
         :id,
-        :name
+        :name,
+        :account_id,
+        :buying_type,
+        :can_use_spend_cap,
+        :configured_status,
+        :created_time,
+        :effective_status,
+        :objective,
+        :start_time,
+        :stop_time,
+        :updated_time,
+        :spend_cap
       ]
     end
 
