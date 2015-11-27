@@ -11,7 +11,7 @@ module Eucalyptus
     end
 
     def self.api_path
-      "adcampaign_groups"
+      "campaigns"
     end
   end
 end
