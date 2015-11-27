@@ -5,7 +5,6 @@ module Eucalyptus
     def self.known_fields
       [
         :id,
-        :campaign_group_status,
         :name
       ]
     end
